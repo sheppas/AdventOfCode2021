@@ -75,9 +75,10 @@ const bingoSquid = (calledArray, boardArray) => {
       }
     }
   }
-  console.log(finalRow);
-  console.log(finalBoard);
-  console.log(called);
+  // console.log(finalRow);
+  // console.log(finalBoard);
+  // console.log(called);
+  return finalBoard;
 }
 
 bingoSquid(exampleCalled, exampleBoards)
